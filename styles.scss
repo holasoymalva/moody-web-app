@@ -1,0 +1,56 @@
+// Background
+$color-group-0: #FFFFFF;
+$color-group-1: #FFE9C8;
+// Text Color
+$color-group-2: #bc823b;
+// Face Colors
+$color-group-3: #FFE9C8;
+$color-group-4: #F4C79A;
+$color-group-5: #ECB37C;
+// Grid Colors
+    // Active Day
+$color-group-6: #FFD7C8;
+    // Disable Day
+$color-group-7: #FFF2DE;
+// Calendario
+$color-group-8: #FFA5A5;
+$color-group-9: #FFFDF8;
+$color-group-10: #7D5B5A;
+// Face Colors
+$color-group-11: #C9985C;
+$color-group-12: #FFF2DE;
+
+// Font Family
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;700&family=Montserrat:ital,wght@0,500;0,700;0,800;0,900;1,900&family=Roboto:wght@400;500&display=swap');
+
+$font-family-1: 'Baloo Thambi 2', cursive;
+$font-family-2: 'Roboto', sans-serif;
+$font-family-3: 'Montserrat', sans-serif;
+
+$font-white-border-1:-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+$font-white-border-2:-2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+$font-white-border-3:-3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+$font-white-border-4:-4px 0 white, 0 4px white, 4px 0 white, 0 -4px white;
+
+$box-size: 18px;
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $color-group-1;
+}
+
+h1{
+    font-size: 65px;
+    font-family: $font-family-1;
+    color: $color-group-2;
+    text-shadow: $font-white-border-4;
+    font-weight: 700;
+}
+
+.day-box{
+    width: $box-size;
+    height: $box-size;
+    background-color: $color-group-6;
+    margin: 4px;
+}
