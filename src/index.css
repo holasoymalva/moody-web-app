@@ -13,10 +13,18 @@ h1 {
   font-weight: 700;
 }
 
+h3 {
+  font-size: 20px;
+  font-family: "Baloo Thambi 2", cursive;
+  color: #bc823b;
+  text-shadow: -4px 0 white, 0 4px white, 4px 0 white, 0 -4px white;
+  font-weight: 700;
+}
+
 .day-box {
   width: 18px;
   height: 18px;
   background-color: #FFD7C8;
   margin: 4px;
 }
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=index.css.map */
